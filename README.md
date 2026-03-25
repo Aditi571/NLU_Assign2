@@ -60,17 +60,6 @@ Run the task:
 python task2.py
 ```
 
----
-
-The script will:
-
-- Train Vanilla RNN, Bidirectional LSTM (BLSTM), and Attention RNN models
-- Print number of parameters and training loss per epoch
-- Generate a training loss plot comparing all three models
-- Save trained models as:
-  - `vanilla_rnn.pth`
-  - `blstm.pth`
-  - `attention_rnn.pth`
 
 ---
 
