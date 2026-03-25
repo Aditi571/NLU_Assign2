@@ -62,20 +62,6 @@ python task2.py
 
 ---
 
-### Problem 3 (RNN / BLSTM / Attention Models)
-
-Navigate to the `prob3` folder:
-
-```bash
-cd ../prob3
-```
-
-Run the training script:
-
-```bash
-python task3.py
-```
-
 The script will:
 
 - Train Vanilla RNN, Bidirectional LSTM (BLSTM), and Attention RNN models
@@ -88,19 +74,6 @@ The script will:
 
 ---
 
-## Notes
-
-- Always make sure the virtual environment is activated before running any task
-- Dependencies are managed in `requirements.txt`
-- To view training progress for Problem 3, the matplotlib plot will show loss curves for all models
-- You can load the trained models later using:
-
-```python
-model.load_state_dict(torch.load("model_name.pth"))
-```
-
----
-
 ## Project Structure
 
 ```
@@ -110,9 +83,6 @@ project/
 │   └── task1.py
 ├── prob2/
 │   └── task2.py
-├── prob3/
-│   └── task3.py
-│   └── TrainingNames.txt
 ├── requirements.txt
 └── README.md
 ```
